@@ -10,6 +10,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script type="text/javascript" src="//unpkg.com/viewport-checker@^2"></script>
+  <script src="dist/viewportChecker.umd.js"></script>
+    <script>
+        const vpc = new ViewportChecker('.dummy');
+        document.addEventListener('DOMContentLoaded', () => vpc.attach());
+    </script>
+  <script src="assets/smooth-scroll.js"></script>
+  <script src="assets/jquery.touch-swipe.min.js"></script>
+  <script src="Assets/jquery.viewportchecker.js"></script>
 </head>
 
 <body>
@@ -71,9 +80,7 @@
       </div>
     </div>
   </div>
-  <script src="assets/smooth-scroll.js"></script>
-  <script src="assets/jquery.touch-swipe.min.js"></script>
-  <script src="Assets/jquery.viewportchecker.js"></script>
+
   
 </body>
 
