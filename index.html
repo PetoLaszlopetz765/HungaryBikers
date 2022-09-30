@@ -16,9 +16,12 @@
         const vpc = new ViewportChecker('.dummy');
         document.addEventListener('DOMContentLoaded', () => vpc.attach());
     </script>
-  <script src="assets/smooth-scroll.js"></script>
-  <script src="assets/jquery.touch-swipe.min.js"></script>
-  <script src="Assets/jquery.viewportchecker.js"></script>
+  <script src="js/smooth-scroll.js"></script>
+  <script src="js/jquery.touch-swipe.min.js"></script>
+  <script src="js/js.cookie.min.js"></script>
+  <script src="js/cookie_consent.js"></script>
+  <script src="js/popup.js"></script>
+
 </head>
 
 <body>
@@ -79,6 +82,28 @@
               <style>.mapouter{position:relative;text-align:right;width:100%;height:auto;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:auto;}.gmap_iframe {width:100%!important;height:auto!important;}</style></div><br><br>
       </div>
     </div>
+  </div>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@800&family=Montserrat&display=swap" rel="stylesheet">
+
+<div class="container">
+    <button onclick="_switchMode('cookie-popup--short')">Switch .cookie-popup--short</button>
+    <button onclick="_switchMode('cookie-popup--dark')">Switch .cookie-popup--dark</button>
+    <button onclick="_reset()">Reset cookie accept</button>
+  
+  <div class="pin-title">Cookie Popup</div>
+  
+  <div class="cookie-popup cookie-popup--short cookie-popup--dark">
+    
+    <div>
+    This website uses cookies to provide you with a great user experience. By using it, you accept our <a href="https://google.com">use of cookies</a>
+    </div>
+    <div class="cookie-popup-actions">
+      <button>Okay</button>
+    </div>
+
+  </div>
+  
+</div>
   </div>
 
   
