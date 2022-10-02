@@ -2,7 +2,7 @@ setCookie = (cName, cValue, expdays) => {
     let date = new Date();
     date.setTime(date.getTime() + (expdays * 24 * 60 * 60 * 1000));
     const expires = "expires=" + date.toUTCString();
-    document.cookie = cName + "=" + cValue + ";" + expires + "; path=/,";
+    document.cookie = cName + "=" + cValue + ";" + expires + "; path=/";
 }
 
 getCookie = (cName) => {
@@ -17,8 +17,8 @@ getCookie = (cName) => {
 }
 
 document.querySelector("#cookies-btn").addEventListener("click", () => {
-    document.querySelector("#cookies").getElementsByClassName.display = "none";
-    setCookie("cookie", true, 30)
+    document.querySelector("#cookies").style.display = "none";
+    setCookie("cookie", true, 30);
 })
 
 cookieMessage = () => {

@@ -149,17 +149,18 @@ ul, li{
   z-index: 1;
   display:none;
   font-size: 1rem;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight: 100;
-  
+
 }
-/*.cookies{
+.cookies{
   min-height: 70px;
   display: flex
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-}*/
+}
 .cookies a{
   color:yellow;
   font-weight: 500;
@@ -173,6 +174,7 @@ ul, li{
   cursor:pointer;
   border:3px solid white;
   background-color: black;
+  font-family: 'Courier New', Courier, monospace;
   color:white
 }
 
