@@ -155,7 +155,7 @@ ul, li{
 }
 .cookies{
   min-height: 70px;
-  display: flex
+  display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
