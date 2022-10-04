@@ -39,20 +39,22 @@ html, body {
 }
 .lil:hover{
   background-color:#787d9e;
-  color:rgb(4, 4, 4);
+  color:rgb(253, 244, 244);
   box-shadow:2px 2px 20px #c8f3f9;
   border-radius:10px;
   transform: scale(1.2);
 }
 a{
   text-decoration:none;
-  color:#100000;
+  color:#322e2e;
   text-shadow:2px 2px 10px white;
+  transition: all 0.8s ease-in-out;
 }
 a:hover{
   color:rgb(14, 14, 14);
   text-shadow:2px 2px 5px #000b0c;
   text-decoration:underline;
+  transform: scale(1.2);
 }
 #all-page{
   width:80%;
