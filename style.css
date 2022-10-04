@@ -199,16 +199,16 @@ ul, li{
 
 
 #carimg{
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   margin: auto auto;
 }
 
 .carousel{
 box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-height: 530;
-width: 500px;
+height: 100%;
+width: 90%;
 overflow: hidden;
 margin-top: 30px;
 margin-left: auto;
