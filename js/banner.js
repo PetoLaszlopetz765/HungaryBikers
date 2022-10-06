@@ -3,13 +3,16 @@ const leftBtn = document.getElementById("left");
 const rightBtn = document.getElementById("right");
 
 const img = document.querySelectorAll("#imgs img");
-
+const container=document.getElementById("carousel")
 let idx = 0;
+let width = 0;
+let width2 = 0;
 
 let interval = setInterval(run, 2000);
 
 function run() {
   idx++;
+  width2++;
   changeImage();
 }
 
